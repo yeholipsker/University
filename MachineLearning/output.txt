@@ -1,0 +1,32 @@
+current parameters: epochs = 10 lr = 0.1 func = sigmoid layer size = 50
+epoch number: 0, success rate: 80.98%
+epoch number: 1, success rate: 82.40%
+epoch number: 2, success rate: 82.44%
+epoch number: 3, success rate: 82.47%
+epoch number: 4, success rate: 83.14%
+epoch number: 5, success rate: 82.14%
+epoch number: 6, success rate: 81.54%
+epoch number: 7, success rate: 84.50%
+epoch number: 8, success rate: 84.48%
+epoch number: 9, success rate: 83.80%
+current parameters: epochs = 10 lr = 0.1 func = sigmoid layer size = 100
+epoch number: 0, success rate: 80.21%
+epoch number: 1, success rate: 80.41%
+epoch number: 2, success rate: 82.14%
+epoch number: 3, success rate: 80.95%
+epoch number: 4, success rate: 83.51%
+epoch number: 5, success rate: 85.02%
+epoch number: 6, success rate: 84.77%
+epoch number: 7, success rate: 84.69%
+epoch number: 8, success rate: 85.42%
+epoch number: 9, success rate: 85.54%
+epoch number: 0, success rate: 77.65%
+epoch number: 1, success rate: 80.11%
+epoch number: 2, success rate: 81.45%
+epoch number: 3, success rate: 82.58%
+epoch number: 4, success rate: 82.40%
+epoch number: 5, success rate: 83.62%
+epoch number: 6, success rate: 83.20%
+epoch number: 7, success rate: 84.18%
+epoch number: 8, success rate: 83.45%
+epoch number: 9, success rate: 84.58%

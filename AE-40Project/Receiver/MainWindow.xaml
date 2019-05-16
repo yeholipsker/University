@@ -1,0 +1,40 @@
+﻿<Window x:Class="Vlc.DotNet.Wpf.Samples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vlc="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf"
+        Name="Receiver" Width="550" Height="400">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="10*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid Name="ScreenGrid" Grid.Column="1" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid Name="ScreenGridDown" Grid.Column="0" Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <vlc:VlcControl Grid.Column="1" Grid.Row="0" x:Name="vlcPlayer4" />
+                    <vlc:VlcControl Grid.Column="0" Grid.Row="0" x:Name="vlcPlayer3" />
+                </Grid>
+                <Grid Name="ScreenGridTop" Grid.Column="0" Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <vlc:VlcControl Grid.Column="1" Grid.Row="0" x:Name="vlcPlayer2" />
+                    <vlc:VlcControl Grid.Column="0" Grid.Row="0" x:Name="vlcPlayer" />
+                </Grid>
+            </Grid>
+            <Button Content="Listen" Name="ListenButton" HorizontalAlignment="Left" Margin="0,170,0,0" VerticalAlignment="Top" Width="49" Click="ListenButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>

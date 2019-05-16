@@ -1,0 +1,24 @@
+Wrong Directory Get 70,70,GREAT_JOB,WRONG_DIRECTORY
+TIMEOUT gets 0,0,TIMEOUT
+TIMEOUT3 gets 0,0,TIMEOUT
+no files gets 0,0,NO_C_FILE
+_no c file only files gets 0,0,NO_C_FILE
+NO C FILE gets 0,0,NO_C_FILE
+No c file and muliple dirs get 0_multi,0,MULTIPLE_DIRECTORIES
+_multiple directories gets 0,0,MULTIPLE_DIRECTORIES
+_multiple directories and files gets 0,0,MULTIPLE_DIRECTORIES
+Great Job 100,100,GREAT_JOB
+Great Job5 100,100,GREAT_JOB
+Great Job4 100,100,GREAT_JOB
+Great Job3 100,100,GREAT_JOB
+Great Job2 100,100,GREAT_JOB
+good input gets 50,50,GREAT_JOB,WRONG_DIRECTORY
+Compilation Error gets 0,0,COMPILATION_ERROR
+compilation error2  gets 0,0,COMPILATION_ERROR
+_C file more dirs get 100,100,GREAT_JOB
+_C file and more dirs get 100,100,GREAT_JOB
+bad output 2 gets 0,0,BAD_OUTPUT
+bad output 1 gets 0,0,BAD_OUTPUT
+TIMEOUT2 gets 0,0,TIMEOUT
+similar output gets 70,70,SIMILLAR_OUTPUT
+Similar wrong  gets 50,50,SIMILLAR_OUTPUT,WRONG_DIRECTORY
