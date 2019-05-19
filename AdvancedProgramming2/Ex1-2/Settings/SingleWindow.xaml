@@ -1,0 +1,23 @@
+﻿<Window x:Class="Settings.SingleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Settings"
+        mc:Ignorable="d"
+        Title="Single Player" Height="230" Width="275" Closing="Window_Closing"
+        WindowStartupLocation="CenterScreen" >
+    
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <local:UC3Fields MazeName="{Binding MazeName, Mode=TwoWay}" MazeCols="{Binding MazeCols, Mode=TwoWay}"
+                         MazeRows="{Binding MazeRows, Mode=TwoWay}"  />
+        <Button Grid.Row="1" Content="Let's Play!" HorizontalAlignment="Center" VerticalAlignment="Center"
+                FontSize="30" x:Name="playBtn" Click="playBtn_Click" />
+        
+    </Grid>
+    
+</Window>

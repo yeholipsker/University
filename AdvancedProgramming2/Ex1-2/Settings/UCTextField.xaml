@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Settings.UCTextField"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Settings"
+             mc:Ignorable="d" 
+             x:Name="UCtextField"
+             d:DesignHeight="100" d:DesignWidth="250">
+    <StackPanel Orientation="Horizontal">
+        <TextBlock Text="{Binding Path=Label, ElementName=UCtextField}"
+                   Width="125"
+                   FontSize="16"
+                   VerticalAlignment="Center"
+                   Margin="0,0,0,10"/>
+        <TextBox Text="{Binding Path=Value, ElementName=UCtextField}"
+                 Width="125"
+                 FontSize="16"
+                 VerticalAlignment="Center"
+                 Margin="0,0,0,10"/>
+    </StackPanel>
+</UserControl>

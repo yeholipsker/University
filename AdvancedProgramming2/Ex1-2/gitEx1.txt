@@ -1,0 +1,166 @@
+commit c31de96f9d2b73d0f0c43f2d984a71c55d1158cf
+Author: noamspok <noamspok@DESKTOP-8FA45J9>
+Date:   Sun Apr 23 19:09:29 2017 +0300
+
+    save
+
+commit ff0b397ac82b8a4988b3ffe9c63bf80b797b91c7
+Author: noamspok <noamspok@DESKTOP-8FA45J9>
+Date:   Sun Apr 23 12:34:50 2017 +0300
+
+    finished all the remarks
+
+commit b51ec42c26183f25f87fa84c5d38b084005cde65
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Sun Apr 23 01:02:00 2017 +0300
+
+    ery
+
+commit 9bef021352018af5a4c535058d4d2557b832ce60
+Merge: eb481d6 fc689fb
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 18:55:58 2017 +0300
+
+    Merge branch 'master' of https://github.com/yeholipsker/ex1-advancedProgramming2
+
+commit eb481d6ccf03ae2d0078550c38da74df250ccd9d
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 18:55:35 2017 +0300
+
+    בדרך...
+
+commit fc689fb9b83e7bbd032fbed91dd6eae030c83cfb
+Author: noamspok <noamspok@DESKTOP-8FA45J9>
+Date:   Fri Apr 21 18:05:32 2017 +0300
+
+    finished most
+    have to set things for shabat
+
+commit 3d435d0cf4ca97f2950cddcc5757d68e32b63dba
+Merge: 12800db 31452e4
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 11:48:06 2017 +0300
+
+    Merge branch 'master' of https://github.com/yeholipsker/ex1-advancedProgramming2
+
+commit 12800db89373df534cef9f23760ac30c60ea6a54
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 11:47:58 2017 +0300
+
+    khgckhg
+
+commit a1539fd1e848be6716ee29751d76b0cad85727ad
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 05:52:20 2017 +0300
+
+    dfhstg
+
+commit 9261cf5b084ef94ee009fe3f26d8aaf9d35b86cb
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 05:49:40 2017 +0300
+
+    i managed to do play!!!!!
+
+commit 31452e422e10e10643bcb3205e636f9594efae50
+Merge: cdc461c 3dcf912
+Author: noamspok <noamspok@DESKTOP-8FA45J9>
+Date:   Fri Apr 21 02:13:15 2017 +0300
+
+    Merge branch 'master' of https://github.com/yeholipsker/ex1-advancedProgramming2
+
+commit cdc461ce6c3a06267ff71ded498c7efd1cdf11ed
+Author: noamspok <noamspok@DESKTOP-8FA45J9>
+Date:   Fri Apr 21 02:10:46 2017 +0300
+
+    finished the remarks.
+    waiting for you to finish thr remaining part..
+
+commit 3dcf912a3ccea7ffee256ab2a1ed669d9098caf8
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Fri Apr 21 00:14:14 2017 +0300
+
+    before play...
+
+commit 52856fc15c6c7f1f275e380d5a06d277f765527f
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Thu Apr 20 20:03:58 2017 +0300
+
+    finished start' join and list!!!!!!!!!!!!!
+
+commit 2870fa209a01e06c01947164b1d19b8039cd481a
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Thu Apr 20 17:07:01 2017 +0300
+
+    hi
+
+commit b4098dda999d39341da5a1c682982761d63c07ec
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Thu Apr 20 15:55:47 2017 +0300
+
+    comments
+
+commit b630a4fafa1cec41f98eb4eedb4ba9f4ce839bdd
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Thu Apr 20 15:26:51 2017 +0300
+
+    i finished also solve command!!!!!!!!!!!!!!!!!!!
+
+commit 3c260b8ffb9f3937d6fd8d5fce386a5b0db45851
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Thu Apr 20 11:13:18 2017 +0300
+
+    managed to add generate command and test it
+
+commit 2cd914527f51c6b6e839e8829495e3779ae8d282
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Thu Apr 20 02:33:08 2017 +0300
+
+    added basic for client server
+
+commit 96914c504a7947c3c85180b1fe74d03a46bb111e
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Wed Apr 19 19:59:51 2017 +0300
+
+    finished mission a!!!!!!!!!!!!!!!!!!!!
+
+commit 7f787aad86cd2288dd6fd654ddc1b0c61b7c9e89
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Wed Apr 19 17:34:10 2017 +0300
+
+    zxghsj
+
+commit 30709e2126610d6c50d7598110520c28fae7c9ec
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Wed Apr 19 15:15:31 2017 +0300
+
+    think i finished mission a
+
+commit 2fc13a830d95aa70b6ad02638607db92ca077b13
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Wed Apr 19 13:15:20 2017 +0300
+
+    made the dfs
+
+commit 3679641bc03bd8b56d30f38d4780859a917ec017
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Wed Apr 19 12:31:00 2017 +0300
+
+    more some progress
+
+commit cad9ff18a730a7a24b24d93fdf30d10b4c203bf3
+Author: יהושע ליפסקר <yeholipsker@gmail.com>
+Date:   Wed Apr 19 11:22:22 2017 +0300
+
+    some progress
+
+commit b19dc3587fe17b0b65977f4957996ddbd14233a0
+Author: יהושע ליפסקר <יהושע ליפסקר>
+Date:   Tue Apr 18 23:18:34 2017 +0300
+
+    Add project files.
+
+commit bd4d8c09bca6d194fdb752427cb849196a0cc1c4
+Author: yeholipsker <yeholipsker@יהושע-ליפסקר>
+Date:   Tue Apr 18 23:18:31 2017 +0300
+
+    Add .gitignore and .gitattributes.

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    
+    <title>
+        settings
+    </title>
+
+   
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    
+    <div class="container" id="settings">
+        <h2 class=" text-info">
+            Set Your Default Settings:<br /><br /><br /><br />
+        </h2>
+        <div class="col-md-8 form-horizontal">
+
+
+            <label for="cols" class="col-md-4 control-label">Default number of Rows</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" data-bind="value:rows, valueUpdate: 'keyup'
+                               " placeholder="enter number of rows" />
+                <span data-bind='visible: rows.hasError, text: rows.validationMessage'> </span>
+                <br />
+            </div>
+            <label for="rows" class="col-md-4 control-label">Default number of Columns</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" data-bind="value:columns"  />
+                <span data-bind='visible: columns.hasError, text: columns.validationMessage'> </span>
+                <br />
+            </div>
+        </div>
+  
+        <div class="col-md-8 form-horizontal">
+            <label for="cols" class="col-sm-2 control-label"><br />Default Search Algo</label>
+            <div>
+                <br/>
+                <select class="btn btn-default" data-bind=" options: Algos,value: selectedAlgo,optionsCaption:'Algos'"></select>
+            </div>  
+            
+        <div><br /><br /><br /><br />
+            <button class="btn btn-default" data-bind="click: set,enable: isFormValid">Set</button>
+        </div>
+
+        </div>
+        </div>
+    <script src="../Scripts/knockout-3.4.2.js"></script>
+    <script src="../Scripts/knockout.validation.js"></script>
+    <script src="../Scripts/Settings.js"></script>
+</body>
+</html>

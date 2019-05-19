@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.js"></script>
+    <title>
+        MultiPlayer
+    </title>
+
+    
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+   
+    <div class="container-fluid" id="multi">
+        <h2>MultiPlayer Game</h2>
+    
+    
+        <div class="col-sm-3 form-horizontal">
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label"><br />Games:</label>
+                <div>
+                    <br />
+                    <select class="btn btn-default" data-bind=" options: gameOptions,optionsCaption:'Games',value: selectedGame"></select>
+                </div>
+               
+                <br />
+                <button class="btn btn-default center-block col-sm-6 " style="margin-left:40px" data-bind="click: JoinBtn, enable:selectedGame">Join Game</button>
+
+            </div>
+                <div>
+                    <br />
+                    <label for="mazeName" class="col-sm-3 control-label">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" data-bind="value:Name, valueUpdate: 'keyup' " 
+                               placeholder ="Enter The Game's Name" />
+                        <span data-bind='visible: Name.hasError, text: Name.validationMessage'> </span>
+                        <br />
+                    </div>
+                    <label for="cols" class="col-sm-3 control-label">rows</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" data-bind="value:rows, valueUpdate: 'keyup' " 
+                               placeholder ="Enter number of rows" />
+                        <span data-bind='visible: rows.hasError, text: rows.validationMessage'> </span>
+                        <br />
+                    </div>
+                    <label for="rows" class="col-sm-3 control-label">columns</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" data-bind="value:columns, valueUpdate: 'keyup' " 
+                               placeholder ="Enter number of columns" />
+                        <span data-bind='visible: columns.hasError, text: columns.validationMessage'> </span>
+                        <br />
+                    </div>
+                </div>
+                <div>
+                    <br />
+                    <button class="btn btn-default" style="margin-left:40px" data-bind="click: StartBtn ,enable: isFormValid">Start A New Game</button>
+
+
+                    
+                    
+                    
+            </div>
+        </div>
+        <div class="col-sm-4 text-center">
+            <canvas id="mazeCanvas" width="420" height="420" style="border:2px black
+    solid"></canvas>
+
+
+
+        
+    </div>
+        <div class="col-sm-4 text-center">
+            <canvas id="rivalsMazeCanvas" width="420" height="420" style="border:2px black
+    solid"></canvas>
+
+
+
+        
+    </div>
+        </div>
+    <script src="../Scripts/knockout-3.4.2.js"></script>
+    <script src="../Scripts/knockout.validation.js"></script>
+    <script src="../Scripts/jquery.signalR-2.2.2.js"></script>
+<script src="../signalr/hubs"></script>
+   
+    <script src="../Scripts/jquery.mazeBoard.js"></script>
+    <script src="../Scripts/Multi.js"></script>
+    
+</body>
+</html>

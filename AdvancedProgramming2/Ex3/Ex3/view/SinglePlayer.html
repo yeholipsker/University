@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    
+    <title>
+        SinglePlayer
+    </title>
+
+
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    
+    <div class="container-fluid" id="single">
+        <h2>Single Player Game</h2>
+        <br />
+        <div class="col-sm-4 form-horizontal">
+            <div>
+                <br />
+                <label for="mazeName" class="col-sm-3 control-label">Name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" data-bind="value:Name, valueUpdate: 'keyup' "
+                           placeholder="Enter The Game's Name" />
+                    <span data-bind='visible: Name.hasError, text: Name.validationMessage'> </span>
+                    <br />
+                </div>
+                <label for="cols" class="col-sm-3 control-label">rows</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" data-bind="value:rows, valueUpdate: 'keyup' "
+                           placeholder="Enter number of rows" />
+                    <span data-bind='visible: rows.hasError, text: rows.validationMessage'> </span>
+                    <br />
+                </div>
+                <label for="rows" class="col-sm-3 control-label">columns</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" data-bind="value:columns, valueUpdate: 'keyup' "
+                           placeholder="Enter number of columns" />
+                    <span data-bind='visible: columns.hasError, text: columns.validationMessage'> </span>
+                    <br />
+                </div>
+            </div>
+            <div>
+                <br />
+                <button class="btn btn-default" style="margin-left:40px" data-bind="click: StartBtn ,enable: isFormValid">Start A New Game</button>
+
+            </div>
+            <label for="cols" class="col-sm-2 control-label" style="margin-left:50px"><br />Search Algo</label>
+            <div>
+                <br />
+                <select class="btn btn-default" data-bind=" options: algoOptions,optionsCaption:'Algo',value: selectedAlgo"></select>
+            </div>
+            <div>
+               
+                
+                <button class="btn btn-default center-block" data-bind="click: SlvBtn ,enable: selectedAlgo">Solve Game</button>
+
+            </div>
+        </div>
+
+        <div class="col-sm-8 text-center">
+            <canvas id="mazeCanvas" width="500" height="500" style="border:2px black solid"></canvas>
+
+           
+
+        </div>
+    </div>
+    
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <script src="../Scripts/knockout-3.4.2.js"></script>
+    <script src="../Scripts/knockout.validation.js"></script>
+    <script src="../Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="../signalr/hubs"></script>
+    <script src="../Scripts/jquery.mazeBoard.js"></script>
+    <script src="../Scripts/Single.js"></script>
+    
+</body>
+</html>

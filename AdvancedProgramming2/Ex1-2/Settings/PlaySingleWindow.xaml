@@ -1,0 +1,27 @@
+﻿<Window x:Class="Settings.PlaySingleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Settings"
+        mc:Ignorable="d"
+        Title="{Binding MazeName}" Height="500" Width="750" WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing" Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button x:Name="RestartBtn" Width="100" HorizontalAlignment="Right" Click="RestartBtn_Click" >Restart game</Button>
+        <Button x:Name="SolveBtn" Grid.Column="1" Height="30" VerticalAlignment="Top" Click="SolveBtn_Click">Solve maze</Button>
+        <Button x:Name="MMenuBtn" Grid.Column="2" Width="100" HorizontalAlignment="Left" Click="MMenuBtn_Click">Main menu</Button>
+        <local:UCMaze x:Name="UCMaze" MazeProperty="{Binding MazeProperty}" Rows="{Binding MazeRows}" 
+                      Cols="{Binding MazeCols}" Loaded="UCMaze_Loaded" Grid.Row="1" Grid.ColumnSpan="3"
+                      Solution="{Binding VM_Solution}" Win="{Binding VM_Win, Mode=TwoWay}"/>
+    </Grid>
+</Window>

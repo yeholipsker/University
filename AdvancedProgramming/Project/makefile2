@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.6)
+project(mission2)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+add_subdirectory(lib/googletest-master)
+include_directories(lib/googletest-master/googletest/include)
+include_directories(lib/googletest-master/googlemock/include)
+
+set(SOURCE_FILES main.cpp Point.cpp Point.h BfsSearch.cpp BfsSearch.h PointNode.cpp PointNode.h Node.cpp Node.h
+        Map.cpp Map.h tests/pointTest.cpp tests/PointNodeTest.cpp tests/MapTest.cpp tests/MapTest.h Passanger.cpp Passanger.h
+        Trip.cpp Trip.h tests/BfsSearchTest.cpp tests/PassengerTest.cpp tests/TaxiCenterTest.cpp tests/TripTest.cpp tests/MainFlowTest.cpp
+        Cab.cpp Cab.h LuxuryCab.cpp LuxuryCab.h Driver.cpp Driver.h MainFlow.cpp MainFlow.h tests/PassengerTest.cpp
+        Statistics.cpp Statistics.h TaxiCenter.cpp TaxiCenter.h tests/CabTest.cpp tests/LuxuryCabTest.cpp)
+add_executable(mission2 ${SOURCE_FILES})
+target_link_libraries(mission2 gtest gtest_main)

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <title>
+        User Rankings
+    </title>
+
+
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("navigationbar.html");
+        });
+    </script>
+
+    <table class="table table-striped">
+        <thead class="thead-defualt" id="RankTbl">
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Wins</th>
+                <th>Losses</th>
+
+            </tr>
+    </table>
+    <script src="../Scripts/UserRankings.js"></script>
+</body>
+</html>

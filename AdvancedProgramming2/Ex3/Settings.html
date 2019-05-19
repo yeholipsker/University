@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Ex3\Content\bootstrap.min.css">
+    <script src="C:\Users\noamspok\Downloads\jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="Ex3\Content\bootstrap.min.css"></script>
+    <script src="Ex3\Scripts\bootstrap.min.js"></script>
+
+    <title>
+        settings
+    </title>
+
+   
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("navigationbar.html");
+        });
+    </script>
+    <div class="container">
+        <h2 class=" text-info">
+            Set Your Default Settings:<br /><br /><br /><br />
+        </h2>
+        <div class="col-md-8 form-horizontal">
+
+
+            <label for="cols" class="col-md-4 control-label">Default numberof columns</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="cols" />
+                <br />
+            </div>
+            <label for="rows" class="col-md-4 control-label">Default number of rows</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="rows" />
+                <br />
+            </div>
+        </div>
+  
+        <div class="col-md-8 form-horizontal">
+            <label for="cols" class="col-sm-2 control-label"><br />Default Search Algo</label>
+            <div class="dropdown">
+                <br />
+                <br />
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Algo
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="settings.html">Bfs</a></li>
+                    <li><a href="settings.html">Dfs</a></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+</body>
+</html>
